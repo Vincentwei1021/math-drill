@@ -103,10 +103,10 @@ export default function Home() {
       <footer className="no-print min-h-[44px] border-t border-green-100 bg-white py-3">
         <div className="mx-auto flex max-w-4xl flex-wrap items-center justify-center gap-x-4 gap-y-1 px-4 text-xs text-gray-400 sm:px-6">
           <span>&copy; 2026 ToolboxLite</span>
-          <Link href="/privacy" className="hover:text-green-600 transition-colors">
+          <Link href="/privacy" className="hover:text-green-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
             隐私政策
           </Link>
-          <Link href="/terms" className="hover:text-green-600 transition-colors">
+          <Link href="/terms" className="hover:text-green-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
             使用条款
           </Link>
         </div>

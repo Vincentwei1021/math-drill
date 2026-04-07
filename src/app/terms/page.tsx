@@ -31,7 +31,7 @@ export default function TermsPage() {
             服务说明
           </h2>
           <p>
-            口算题生成器（以下简称"本工具"）是由 ToolboxLite
+            口算题生成器（以下简称&ldquo;本工具&rdquo;）是由 ToolboxLite
             提供的免费在线教育辅助工具，用于生成小学数学口算练习题。
           </p>
 
@@ -46,7 +46,7 @@ export default function TermsPage() {
             免责声明
           </h2>
           <p>
-            本工具按"现状"提供，不作任何明示或暗示的保证。我们不保证生成的题目完全无误，建议教师或家长在使用前进行核实。
+            本工具按&ldquo;现状&rdquo;提供，不作任何明示或暗示的保证。我们不保证生成的题目完全无误，建议教师或家长在使用前进行核实。
           </p>
           <p>
             对于因使用本工具而产生的任何直接或间接损失，ToolboxLite
@@ -74,10 +74,10 @@ export default function TermsPage() {
       <footer className="min-h-[44px] border-t border-green-100 bg-white py-3">
         <div className="mx-auto flex max-w-3xl items-center justify-center gap-4 px-4 text-xs text-gray-400 sm:px-6">
           <span>&copy; 2026 ToolboxLite</span>
-          <Link href="/privacy" className="hover:text-green-600 transition-colors">
+          <Link href="/privacy" className="hover:text-green-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
             隐私政策
           </Link>
-          <Link href="/terms" className="hover:text-green-600 transition-colors">
+          <Link href="/terms" className="hover:text-green-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
             使用条款
           </Link>
         </div>

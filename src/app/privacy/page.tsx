@@ -31,7 +31,7 @@ export default function PrivacyPage() {
             信息收集
           </h2>
           <p>
-            口算题生成器（以下简称"本工具"）是一个纯前端应用。所有题目生成均在您的浏览器本地完成，我们不会收集、存储或传输您输入的任何配置数据或生成的题目内容。
+            口算题生成器（以下简称&ldquo;本工具&rdquo;）是一个纯前端应用。所有题目生成均在您的浏览器本地完成，我们不会收集、存储或传输您输入的任何配置数据或生成的题目内容。
           </p>
 
           <h2 className="pt-2 text-base font-semibold text-green-800">
@@ -72,10 +72,10 @@ export default function PrivacyPage() {
       <footer className="min-h-[44px] border-t border-green-100 bg-white py-3">
         <div className="mx-auto flex max-w-3xl items-center justify-center gap-4 px-4 text-xs text-gray-400 sm:px-6">
           <span>&copy; 2026 ToolboxLite</span>
-          <Link href="/privacy" className="hover:text-green-600 transition-colors">
+          <Link href="/privacy" className="hover:text-green-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
             隐私政策
           </Link>
-          <Link href="/terms" className="hover:text-green-600 transition-colors">
+          <Link href="/terms" className="hover:text-green-600 transition-colors py-3 min-h-[44px] inline-flex items-center">
             使用条款
           </Link>
         </div>
